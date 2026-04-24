@@ -1,0 +1,29 @@
+{
+    "name": "idpuniv/laravel-setting",
+    "description": "this is laravel setting package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Ido",
+            "email": "paulido92@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Idpuniv\\Setting\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Idpuniv\\Setting\\Providers\\SettingServiceProvider",
+                "Idpuniv\\Setting\\Providers\\InstallServiceProvider"
+            ]
+        }
+    }
+}
+
