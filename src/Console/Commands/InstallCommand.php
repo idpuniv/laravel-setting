@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 class InstallCommand extends Command
 {
-    protected $signature = 'base:install';
+    protected $signature = 'setting:install';
     protected $description = 'Install the Setting package';
 
     public function handle()
